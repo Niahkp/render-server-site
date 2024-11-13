@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.d869ef50.css","mappings":"AAAA,KACE,kBAA8B,CAC9B,iBACF,CACA,GACE,UACF","sources":["css/index.css"],"sourcesContent":["body{\n  background: rgb(185, 221, 255);\n  text-align: center;\n}\nh1{\n  color: blue;\n}"],"names":[],"sourceRoot":""}
