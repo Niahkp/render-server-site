@@ -32,7 +32,9 @@ const App =() =>{
       <section>
         <p>View all Items</p>
         {/* <a href="/api/lunch_menu">All Items</a> */}
-        <a href="http://localhost:3000/api/lunch_menu">All Items</a>
+        <a href="/api/lunch_menu">All Items</a>
+
+        {/* <a href="http://localhost:3000/api/lunch_menu">All Items</a> */}
       </section>
     </main>
   );
@@ -46,8 +48,3 @@ root.render(
 );
 
 
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//reportWebVitals();

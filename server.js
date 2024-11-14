@@ -156,9 +156,18 @@ app.get("/",(req,res)=>{
     res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/api/lunch_menu", (req,res)=>{
+app.get("/api/lunch_menu", (req, res) => {
     res.json(lunchMenu);
 });
+
+// app.get("/lunch_menu", (req,res)=>{
+//     res.json(lunchMenu);
+// });
+
+// app.get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, "server-site/build", "index.html"));
+// });
+
 
 
 app.listen(3000, () => {
